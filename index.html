@@ -27,5 +27,43 @@
     </ul>
 </section>
 
+
+
+<h2>Form</h2>
+
+<div class="container">
+    <form action="/action_page.php">
+    <div class="form-group">
+      <label for="name">Name:</label>
+        <input type="text" id="name" name="name"  placeholder="your full name" required></div>
+<br><br>
+<div class = "form-group">
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"  placeholder="@domain.com" required> </div>
+  <br><br>
+  <div class = "form-group">
+     <label for="feedback">Feedback:</label>
+    <textarea id="feedback" name="feedback" placeholder="Write something.." rows="4" required></textarea>
+  </div>
+  <br><br>
+  <div class = "form-group" >
+    <label>How did you find out about our product/service? </label><br><br>
+    <input type="radio" id="social-media" name="source" value="Social Media">
+    <label for="social-media">Social Media</label>
+    <input type="radio" id="word-of-mouth" name="source" value="Word of Mouth">
+    <label for="word-of-mouth">Television</label>
+    <input type="radio" id="advertisement" name="source" value="Advertisement">
+    <label for="advertisement">Word of Mouth</label>
+  </div>
+ 
+    <br><br>
+    <div class = "form-group">
+        <input type="submit" value="Submit">
+  <input type="button" value="Cancel">
+    </div>
+ 
+</form> 
+</div>
+
 </body>
 </html>
