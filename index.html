@@ -6,11 +6,23 @@
 </head>
 
 <style>
-h2 {
+h2,h1 {
     text-align: center;
     margin-top: 20px;
     color: #0056b3;
 }
+/* Center the ul */
+ul {
+            text-align: center; /* Center the text within the ul */
+            margin: 0 auto; /* Center the ul horizontally within its container */
+            padding: 0; /* Remove default padding */
+        }
+ /* Center list items (li) within the ul */
+ ul li {
+            display: inline-block; /* Display list items horizontally */
+            margin-right: 10px; /* Add some spacing between list items */
+        }
+/* style form */
 
 .container {
     background-color: #c4caf5;
@@ -55,10 +67,24 @@ background-color: #0056b3;
 </head>
 
 <body>
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to Our "One Piece" Fan Page</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main><!-- Main Content Section -->
+
     <!-- Home Section -->
 <section id="home">
-    <h1>Welcome to One Piece Website</h1>
-    <p>Discover the best content and services right here.</p>
+    <h1>Home</h1>
+    <p>Welcome to the world of "One Piece"! Whether you're a long-time fan or just starting your journey with Monkey D. Luffy and the Straw Hat Pirates, there's a vast and exciting world of adventures, mysteries, and unforgettable characters waiting for you to explore. Enjoy the epic storytelling and fantastic adventures that "One Piece" has to offer.</p>
 </section>
 
 <!-- About Section -->
@@ -70,13 +96,14 @@ background-color: #0056b3;
 <!-- Contact Section -->
 <section id="contact">
     <h2>Contact Us</h2>
-    <p>Have questions or feedback? Reach out to us:</p>
-    <ul>
+    <p style="text-align:center;">  If you have any questions or if there's anything specific you'd like to know or discuss about "One Piece," feel free to ask! </p>
+    
+    <ul style="text-align:center;">
         <li>Email: Onepiece@wanoarc.com</li>
         <li>Phone: +639123456789</li>
     </ul>
 </section>
-
+    </main>
 
 
 <h2>Form for Fans</h2>
@@ -138,6 +165,11 @@ background-color: #0056b3;
  
 </form> 
 </div>
+
+<!-- Footer Section -->
+<footer>
+    <p>&copy; 2023 "One Piece" Fan Page. All rights reserved.</p>
+</footer>
 
 </body>
 </html>
